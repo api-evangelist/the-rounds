@@ -1,8 +1,25 @@
 aid: the-rounds
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-rounds.png
 name: The Rounds
-description: The Rounds is a company surfaced as a portfolio company of a16z, redpoint-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: The Rounds was a membership-based sustainable grocery and household-goods
+  delivery startup (backed by a16z and Redpoint Ventures) built around reusable packaging
+  and reducing single-use waste. The company has since been wound down and folded into
+  Misfits Market — as of this enrichment pass https://www.therounds.co/ returns an HTTP
+  301 redirect to a Misfits Market "welcome-new-rounds" landing page ("Same Mission,
+  More Groceries"). No developer portal, API, documentation, or public API surface was
+  found; api./docs./developer.therounds.co do not resolve. This profile is retained as
+  a network lead with an acquired/defunct status.
 url: https://raw.githubusercontent.com/api-evangelist/the-rounds/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +28,19 @@ x-backed-by:
 - redpoint-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: misfits-market
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Grocery Delivery
+- Sustainability
+- Zero Waste
+- E-Commerce
+- Consumer
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,10 @@ maintainers:
 common:
 - type: Website
   url: https://www.therounds.co/
+- type: Company
+  url: https://www.misfitsmarket.com/welcome-new-rounds
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
