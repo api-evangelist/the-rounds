@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.therounds.co/', status: 301, note: 'declared website redirects to https://www.misfitsmarket.com/welcome-new-rounds?promo=ROUNDS10X2&utm_source=therounds — a different registrable domain (therounds.co -> misfitsmarket.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-rounds.png
 name: The Rounds
 description: The Rounds was a membership-based sustainable grocery and household-goods
