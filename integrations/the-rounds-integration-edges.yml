@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/the-rounds/integrations
+- https://n8n.io/integrations/the-rounds/
+- https://composio.dev/toolkits/the-rounds
+- https://monid.ai/tools/the-rounds
+checked:
+- https://composio.dev/toolkits/the-rounds
+- https://monid.ai/tools/the-rounds
+- https://n8n.io/integrations/the-rounds/
+- https://zapier.com/apps/the-rounds/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
